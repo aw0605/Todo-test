@@ -234,7 +234,8 @@ EX))
 1, 작업 완료  
 2, 터미널에 `yarn add gh-pages` 입력  
 3, github에서 새로운 repository 생성  
-4, package.json파일에서 `"homepage" : "홈페이지 주소(ex))https://아이디.github.io/이름"`추가(시간이 오래걸리기 때문에 미리 추가해줌)  
+4, package.json파일에서 `"homepage" : "홈페이지 주소(ex))https://아이디.github.io/이름"`추가
+  (시간이 오래걸리기 때문에 미리 추가해줌)  
 5, package.json파일의 scripts에 `"predeploy": "npm run build", "deploy": "gh-pages -d build"`추가  
 6, git status  
 7, git add .
